@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundBoard</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <div>
+        <h1>SoundBoard</h1>
+        <script>
+            var soundPlay = function(name)
+            {
+                sound = new Audio (name + ".mp3");
+                sound.play();
+            }
+        </script>
+        <a onclick="soundPlay('bruh')"><img src="button.png" alt="boton1" width="64" height="64"></a>
+        <figcaption>bruh</figcaption>
+        <a onclick="soundPlay('omg')"><img src="button.png" alt="boton2" width="64" height="64"></a>
+        <figcaption>OMG!!</figcaption>
+        <a onclick="soundPlay('tacobell')"><img src="button.png" alt="boton3" width="64" height="64"></a>
+        <figcaption>Taco Bell</figcaption>
+        <a onclick="soundPlay('ayothepizzahere')"><img src="button.png" alt="boton4" width="64" height="64"></a>
+        <figcaption>Ayo the Pizza here</figcaption>
+        <a onclick="soundPlay('hood')"><img src="button.png" alt="boton5" width="64" height="64"></a>
+        <figcaption>Certified Hood Classic</figcaption>
+        <a onclick="soundPlay('laugh')"><img src="button.png" alt="boton6" width="64" height="64"></a>
+        <figcaption>Laugh</figcaption>
+        <a onclick="soundPlay('tada')"><img src="button.png" alt="boton7" width="64" height="64"></a>
+        <figcaption>Tada</figcaption>
+        <a onclick="soundPlay('explosion mem')"><img src="button.png" alt="boton8" width="64" height="64"></a>
+        <figcaption>Explosion</figcaption>
+        <a onclick="soundPlay('wifi')"><img src="button.png" alt="boton9" width="64" height="64"></a>
+        <figcaption>Get Wifi anywhere you go!</figcaption>
+    </div>
+</body>
+</html>
